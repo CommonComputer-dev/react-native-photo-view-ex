@@ -62,6 +62,11 @@ public class PhotoViewManager extends SimpleViewManager<PhotoView> {
         view.setMinimumScale(minimumZoomScale);
     }
 
+    @ReactProp(name = "mediumZoomScale")
+    public void setMinimumZoomScale(PhotoView view, float mediumZoomScale) {
+        view.setMinimumScale(mediumZoomScale);
+    }
+
     @ReactProp(name = "maximumZoomScale")
     public void setMaximumZoomScale(PhotoView view, float maximumZoomScale) {
         view.setMaximumScale(maximumZoomScale);
