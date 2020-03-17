@@ -19,6 +19,7 @@ export default class PhotoView extends React.PureComponent {
       ]),
       fadeDuration: PropTypes.number,
       minimumZoomScale: PropTypes.number,
+      mediumZoomScale: PropTypes.number,
       maximumZoomScale: PropTypes.number,
       resizeMode: PropTypes.string,
       scale: PropTypes.number,
